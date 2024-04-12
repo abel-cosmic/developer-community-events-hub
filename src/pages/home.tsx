@@ -1,5 +1,11 @@
+import HomeLayout from "@/layout/home";
+
 const Home = () => {
-  return <div>This is Home</div>;
+  return (
+    <div>
+      <HomeLayout />
+    </div>
+  );
 };
 
 export default Home;
