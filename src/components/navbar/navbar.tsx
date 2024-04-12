@@ -7,7 +7,7 @@ import google from "../../../public/google.svg"
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 left-0 right-0 flex flex-row gap-4 px-4 py-2 border-b border-border bg-white/5 backdrop-blur-xl">
+    <div className="sticky top-0 left-0 right-0 flex flex-row gap-4 px-4 py-2 border-b border-border bg-white/5 backdrop-blur-xl md:hidden">
       <Sheet>
         <SheetTrigger>
           <Menu />

@@ -14,7 +14,7 @@ const Content = ({
   btn?: string;
 }) => {
   return (
-    <div className="flex flex-col w-full gap-10 py-8 bg-secondary-foreground">
+    <div className="flex flex-col w-full gap-10 px-4 py-8 bg-secondary-foreground">
       <img src={img} alt={topic} className="w-full h-40" />
       <div>{topic}</div>
       <div className="text-4xl tracking-wider">{slogan}</div>
