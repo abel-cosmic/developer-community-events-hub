@@ -1,5 +1,11 @@
+import ForumLayout from "@/layout/forum";
+
 const About = () => {
-  return <div>This is About</div>;
+  return (
+    <div>
+      <ForumLayout />
+    </div>
+  );
 };
 
 export default About;

@@ -1,6 +1,6 @@
 import ForumLayout from "@/layout/forum";
 
-const Event = () => {
+const Leader = () => {
   return (
     <div>
       <ForumLayout />
@@ -8,4 +8,4 @@ const Event = () => {
   );
 };
 
-export default Event;
+export default Leader;

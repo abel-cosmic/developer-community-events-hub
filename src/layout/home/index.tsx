@@ -6,6 +6,7 @@ import Content from "@/components/card/content";
 import Linker from "@/components/header/linker";
 import logo from "../../../public/logo.png";
 import { CircleHelp } from "lucide-react";
+import Nav from "@/components/navbar/nav";
 
 const HomeLayout = () => {
   const data = [
@@ -51,7 +52,8 @@ const HomeLayout = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col">
+      <Nav/>
       <Navbar />
       <Banner
         number={1}
