@@ -16,14 +16,14 @@ const Banner = ({
   hideimage?: boolean;
 }) => {
   return (
-    <div className="md:flex md:flex-row md:gap-10 md:w-5/6 md:mx-auto">
-      <div className="flex flex-col w-full gap-6 p-6">
+    <div className="md:flex md:flex-row md:gap-32 md:w-5/6 md:mx-auto md:h-screen md:justify-center md:items-center">
+      <div className="flex flex-col w-full gap-6 p-6 md:w-full">
         <Header number={number} topic={topic} />
         <div className="text-4xl font-light tracking-tight">{title}</div>
         <p className="font-light">{desc}</p>
         <Button className="py-6">JOIN US NOW</Button>
       </div>
-      {!hideimage && <img src={banner} alt="" className="md:w-1/2" />}
+      {!hideimage && <img src={banner} alt="" className="object-contain md:w-full md:h-1/2" />}
     </div>
   );
 };

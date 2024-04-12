@@ -62,7 +62,7 @@ const HomeLayout = () => {
         }
       />
       <Topic />
-      <div className="flex flex-col items-center gap-10 px-6 md:flex-row">
+      <div className="flex flex-col items-center gap-10 px-6 md:flex-row md:h-screen md:w-5/6 md:items-center md:justify-center md:mx-auto">
         {data.map((cards) => (
           <Content
             key={cards.id}
@@ -95,7 +95,7 @@ const HomeLayout = () => {
           ))}
         </div>
       </div>
-      <footer className="flex flex-col gap-4 px-4 pt-6 pb-40 font-light border-t-2 md:flex-row md:pb-8 md:items-center md:justify-center">
+      <footer className="flex flex-col gap-4 px-4 pt-6 pb-40 font-light border-t md:pt-4 md:flex-row md:pb-8 md:items-center md:justify-center">
         <img src={logo} alt="" className="w-20" />
         <div className="flex flex-row flex-wrap items-center gap-6">
           <div>Privacy</div>
