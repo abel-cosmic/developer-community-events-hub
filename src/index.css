@@ -1,17 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "@fontsource/noto-sans-sc";
 @layer base {
      :root {
-        --background: 0 0% 100%;
-        --foreground: 224 71.4% 4.1%;
-        --card: 0 0% 100%;
+        --background: 228 81% 8%;
+        --foreground: 0 0% 95%;
+        --card: 206 6% 25%;
         --card-foreground: 224 71.4% 4.1%;
         --popover: 0 0% 100%;
         --popover-foreground: 224 71.4% 4.1%;
-        --primary: 262.1 83.3% 57.8%;
+        --primary: 244 55% 41%;
         --primary-foreground: 210 20% 98%;
-        --secondary: 220 14.3% 95.9%;
+        --secondary: 243 75% 59%;
         --secondary-foreground: 220.9 39.3% 11%;
         --muted: 220 14.3% 95.9%;
         --muted-foreground: 220 8.9% 46.1%;
