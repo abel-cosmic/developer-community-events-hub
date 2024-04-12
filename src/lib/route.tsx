@@ -11,6 +11,7 @@ const About = lazy(() => import("@/pages/about"));
 const Blog = lazy(() => import("@/pages/blog"));
 const Event = lazy(() => import("@/pages/event"));
 const Forum = lazy(() => import("@/pages/forum"));
+const Leader = lazy(() => import("@/pages/leader"));
 const LoadingElement = lazy(() => import("@/components/loaders/loading"));
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,6 +35,10 @@ const router = createBrowserRouter(
       <Route
         path="forum"
         element={<Suspense fallback={<LoadingElement />}>{<Forum />}</Suspense>}
+      />
+      <Route
+        path="leader"
+        element={<Suspense fallback={<LoadingElement />}>{<Leader />}</Suspense>}
       />
     </Route>
   )

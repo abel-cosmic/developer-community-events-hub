@@ -1,5 +1,11 @@
+import ForumLayout from "@/layout/forum";
+
 const Forum = () => {
-  return <div>This is Forum</div>;
+  return (
+    <div>
+      <ForumLayout />
+    </div>
+  );
 };
 
 export default Forum;
