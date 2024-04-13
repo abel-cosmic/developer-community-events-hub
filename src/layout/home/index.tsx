@@ -60,7 +60,7 @@ const HomeLayout = () => {
         topic={"CODE NIGHT COMMUNITY"}
         title={"Community of 🇪🇹 developers to showcase their projects"}
         desc={
-          "We're an international group of Bug Hunters keeping Google products and the Internet safe and secure."
+          "Codenight, is a community of developers to showcase their projects. We offer you the opportunity to display your work publicly and reach people who are interested in developing their skills."
         }
       />
       <Topic />
