@@ -23,7 +23,7 @@ const Banner = ({
         <p className="font-light">{desc}</p>
         <Button className="py-6">JOIN US NOW</Button>
       </div>
-      {!hideimage && <img src={banner} alt="" className="object-contain md:w-full md:h-1/2" />}
+      {!hideimage && <img src={banner} alt="" className="object-contain md:w-full md:h-1/2 max-md:hidden" />}
     </div>
   );
 };
